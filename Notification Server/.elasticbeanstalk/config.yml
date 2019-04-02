@@ -1,0 +1,20 @@
+branch-defaults:
+  default:
+    environment: NotificationServer-dev
+environment-defaults:
+  NotificationServer-dev:
+    branch: null
+    repository: null
+global:
+  application_name: Notification Server
+  default_ec2_keyname: null
+  default_platform: arn:aws:elasticbeanstalk:us-east-2::platform/Node.js running on
+    64bit Amazon Linux/4.8.1
+  default_region: us-east-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: capstone-user
+  sc: null
+  workspace_type: Application
